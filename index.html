@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Simple and free word counter tool to count words, characters, and estimate reading time.">
+  <title>Online Word Counter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Word Counter Tool</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <textarea id="textInput" placeholder="Type or paste your text here..."></textarea>
+    <button onclick="countText()">Analyze Text</button>
+
+    <div class="results">
+      <p id="wordCount">Words: 0</p>
+      <p id="charCount">Characters: 0</p>
+      <p id="readTime">Estimated Reading Time: 0 min</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Word Counter Tool. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
